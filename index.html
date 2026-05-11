@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Interactive rating component</title>
+  </head>
+  <body>
+    <div class="rate-form">
+      <div class="star-icon">
+        <img src="./assets/icon-star.svg" alt="" />
+      </div>
+      <h3 class="ask">How did we do?</h3>
+      <p class="text">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+      <div class="ratings">
+        <button class="rate-button">1</button>
+        <button class="rate-button">2</button>
+        <button class="rate-button">3</button>
+        <button class="rate-button">4</button>
+        <button class="rate-button">5</button>
+      </div>
+      <input type="submit" id="submit" value="submit" />
+    </div>
+    <div class="rating-message">
+      <img src="./assets/illustration-thank-you.svg" alt="" />
+      <p id="selected-rate-text">you selected out of 5</p>
+      <p class="thanks">thank you!</p>
+      <p class="msg">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don't hesitate to get in touch!
+      </p>
+      <textarea id="complain" rows="5" cols="40"></textarea>
+      <input type="submit" id="complain-submit" value="submit" />
+    </div>
+    <div class="final-act">
+      <p class="emoji">😃</p>
+      <p class="final-msg">
+        we appreciate your contact We will address your issue as fast as we can
+      </p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
